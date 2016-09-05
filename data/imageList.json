@@ -1,78 +1,158 @@
 {
-  "album1":
-      [
-        {
-          "imageUrl": "images/img (1).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Ad labore minim commodo sunt dolore incididunt officia aute velit."
-        },
-        {
-          "imageUrl": "images/img (2).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Quis laborum non irure irure."
-        },
-        {
-          "imageUrl": "images/img (3).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Culpa ipsum non incididunt eu consectetur eiusmod nostrud."
-        },
-        {
-          "imageUrl": "images/img (4).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Dolor Lorem aliqua laboris incididunt sunt mollit labore."
-        },
-        {
-          "imageUrl": "images/img (5).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Non est nulla voluptate aliqua laborum ea duis et."
-        },
-        {
-          "imageUrl": "images/img (6).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Tempor in reprehenderit officia tempor ut mollit elit tempor."
-        },
-        {
-          "imageUrl": "images/img (7).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Quis ad nisi ex est aliquip adipisicing."
-        },
-        {
-          "imageUrl": "images/img (8).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Irure amet laborum dolor amet velit elit ad dolore exercitation eiusmod consectetur commodo sit."
-        },
-        {
-          "imageUrl": "images/img (9).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Proident tempor consequat mollit aliquip incididunt adipisicing ex velit sunt enim aliqua."
-        },
-        {
-          "imageUrl": "images/img (10).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Excepteur laborum in qui officia elit quis laboris officia aliqua adipisicing magna occaecat officia."
-        },
-        {
-          "imageUrl": "images/img (11).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Anim sunt laborum exercitation ad."
-        },
-        {
-          "imageUrl": "images/img (12).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Id duis labore culpa elit culpa officia consectetur occaecat deserunt cillum excepteur."
-        }
-      ],
-  "album2":
-      [
-        {
-          "imageUrl": "images/img (13).jpg",
-          "imageAlbum": "Album1",
-          "imageDescription": "Consequat velit aute non aliquip."
-        },
-        {
-          "imageUrl": "images/img (14).jpg",
-          "imageAlbum": "Album2",
-          "imageDescription": "Ipsum laboris deserunt proident voluptate."
-        }
-      ]
-}
+  "status": 200,
+  "success": true,
+  "data": {
+    "images": [
+      {
+        "is_ad": false,
+        "link": "http://i.imgur.com/KlXheDi.jpg",
+        "in_gallery": false,
+        "account_id": null,
+        "height": 1080,
+        "width": 1920,
+        "animated": false,
+        "type": "image/jpeg",
+        "datetime": 1448559317,
+        "description": null,
+        "title": null,
+        "id": "KlXheDi",
+        "size": 525326,
+        "views": 42,
+        "bandwidth": 22063692,
+        "vote": null,
+        "favorite": false,
+        "nsfw": null,
+        "section": null,
+        "account_url": null
+      },
+      {
+        "is_ad": false,
+        "link": "http://i.imgur.com/ZC8CEbr.jpg",
+        "in_gallery": false,
+        "account_id": null,
+        "height": 1080,
+        "width": 1920,
+        "animated": false,
+        "type": "image/jpeg",
+        "datetime": 1448559322,
+        "description": null,
+        "title": null,
+        "id": "ZC8CEbr",
+        "size": 470196,
+        "views": 37,
+        "bandwidth": 17397252,
+        "vote": null,
+        "favorite": false,
+        "nsfw": null,
+        "section": null,
+        "account_url": null
+      },
+      {
+        "is_ad": false,
+        "link": "http://i.imgur.com/xZjJjBX.jpg",
+        "in_gallery": false,
+        "account_id": null,
+        "height": 1080,
+        "width": 1920,
+        "animated": false,
+        "type": "image/jpeg",
+        "datetime": 1448559326,
+        "description": null,
+        "title": null,
+        "id": "xZjJjBX",
+        "size": 481206,
+        "views": 175,
+        "bandwidth": 84211050,
+        "vote": null,
+        "favorite": false,
+        "nsfw": null,
+        "section": null,
+        "account_url": null
+      },
+      {
+        "is_ad": false,
+        "link": "http://i.imgur.com/nroBRcJ.jpg",
+        "in_gallery": false,
+        "account_id": null,
+        "height": 1080,
+        "width": 1920,
+        "animated": false,
+        "type": "image/jpeg",
+        "datetime": 1448559330,
+        "description": null,
+        "title": null,
+        "id": "nroBRcJ",
+        "size": 301101,
+        "views": 38,
+        "bandwidth": 11441838,
+        "vote": null,
+        "favorite": false,
+        "nsfw": null,
+        "section": null,
+        "account_url": null
+      },
+      {
+        "is_ad": false,
+        "link": "http://i.imgur.com/dUMPlNI.jpg",
+        "in_gallery": false,
+        "account_id": null,
+        "height": 1080,
+        "width": 1920,
+        "animated": false,
+        "type": "image/jpeg",
+        "datetime": 1448559334,
+        "description": null,
+        "title": null,
+        "id": "dUMPlNI",
+        "size": 270535,
+        "views": 176,
+        "bandwidth": 47614160,
+        "vote": null,
+        "favorite": false,
+        "nsfw": null,
+        "section": null,
+        "account_url": null
+      },
+      {
+        "is_ad": false,
+        "link": "http://i.imgur.com/jF43HJr.jpg",
+        "in_gallery": false,
+        "account_id": null,
+        "height": 1080,
+        "width": 1920,
+        "animated": false,
+        "type": "image/jpeg",
+        "datetime": 1448559339,
+        "description": null,
+        "title": null,
+        "id": "jF43HJr",
+        "size": 330415,
+        "views": 36,
+        "bandwidth": 11894940,
+        "vote": null,
+        "favorite": false,
+        "nsfw": null,
+        "section": null,
+        "account_url": null
+      }
+    ],
+    "is_ad": false,
+    "in_gallery": false,
+    "images_count": 6,
+    "account_url": "DerfOh",
+    "cover_height": 1080,
+    "cover_width": 1920,
+    "cover": "KlXheDi",
+    "datetime": 1448559315,
+    "description": null,
+    "title": "FO4Armor",
+    "id": "qFY6u",
+    "account_id": 624800,
+    "privacy": "public",
+    "layout": "blog",
+    "views": 15,
+    "link": "http://imgur.com/a/qFY6u",
+    "favorite": false,
+    "nsfw": null,
+    "section": null
+  }}

@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {DatePipe} from "@angular/common";
-import {HTTP_PROVIDERS, Http} from "@angular/http";
+import {HTTP_PROVIDERS, Http, URLSearchParams} from "@angular/http";
 import {DataTableDirectives} from 'angular2-datatable/datatable';
 import * as _ from 'lodash';
 
@@ -19,6 +19,7 @@ export class AlbumComponent {
     constructor(private http:Http) {
        var url = window.location.href;
        var hashValue = url.substring(url.indexOf('#')+1);
+
        console.error(hashValue);
 
        switch(hashValue) {
@@ -26,15 +27,7 @@ export class AlbumComponent {
                 http.get("data/imageList.json")
                  .subscribe((data)=> {
                      setTimeout(()=> {
-                         this.data = data.json().album1;
-                     }, 1000);
-                 });
-                break;
-            case "album2":
-                http.get("data/imageList.json")
-                 .subscribe((data)=> {
-                     setTimeout(()=> {
-                         this.data = data.json().album2;
+                         this.data = data.json().data.images;
                      }, 1000);
                  });
                 break;
